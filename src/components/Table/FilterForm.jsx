@@ -12,7 +12,7 @@ export default function FilterForm({}) {
   return (
     <form>
       <div className="row mb-3 justify-content-start">
-        <div className="col">
+        <div className="col-auto">
           <div id="topStatusBar" className="btn-group" role="group">
             <button
               className={`btn ${statusFilter === "all" ? "btn-dark" : "btn-light"}`}
@@ -41,7 +41,7 @@ export default function FilterForm({}) {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col-auto ml-auto mr-3">
           <select
             className="custom-select"
             id="productSelect"
