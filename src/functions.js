@@ -3,37 +3,32 @@ import Card from "./components/HomePage/Card";
 import Sidebar from "./components/Table/SideBar";
 import TablePage from "./components/Table/TablePage";
 import EditPage from "./components/Edit/EditPage";
-import useBodyClass from "./assets/hooks/useBodyClass";
 
 function HomePage() {
-  useBodyClass("with-nav radial-bg flex-center");
   return (
-    <>
+    <div className="with-nav radial-bg flex-center min-vh-100">
       <Navigation />
       <Card />
-    </>
+    </div>
   );
 }
 
 function RequestsTablePage() {
-  useBodyClass("with-nav body--dashboard");
-
   return (
-    <>
+    <div className="with-nav dashboard">
       <Navigation />
       <Sidebar />
       <TablePage />
-    </>
+    </div>
   );
 }
 
 function RequestEditPage() {
-  useBodyClass("with-nav");
   return (
-    <>
+    <div className="with-nav">
       <Navigation />
       <EditPage />
-    </>
+    </div>
   );
 }
 
