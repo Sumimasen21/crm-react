@@ -95,7 +95,7 @@ function App() {
         setProductFilter,
       }}
     >
-      <Router>
+      <Router basename="/crm-react">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/table" element={<RequestsTablePage />} />
