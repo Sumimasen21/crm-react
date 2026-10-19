@@ -820,3 +820,27 @@ body {
 .none {
   display: none !important;
 }
+.not-found-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.not-found-content {
+  max-width: 500px;
+}
+
+.not-found-title {
+  font-size: 120px;
+  font-weight: 800;
+  color: #094071;
+  line-height: 1;
+}
+
+.not-found-subtitle {
+  color: #161d1d;
+}
+
+.not-found-btn {
+  border-radius: 30px;
+}
