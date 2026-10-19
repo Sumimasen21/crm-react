@@ -1,0 +1,35 @@
+{
+  "applications": [
+    {
+      "name": "Александр Растич",
+      "phone": "+79185682260",
+      "email": "yourfriend@gmail.com",
+      "product": "course-php",
+      "numberId": 1,
+      "date": "16.10.2026",
+      "status": "new",
+      "id": "6fpypjZi0-U"
+    },
+    {
+      "id": "YDZmnfnoYVo",
+      "numberId": 2,
+      "date": "16.10.2026",
+      "product": "course-php",
+      "name": "Александр Растич",
+      "email": "yourfriend@gmail.com",
+      "phone": "+79185682260",
+      "status": "inwork"
+    },
+    {
+      "id": "t3W_zu0bfbI",
+      "numberId": 3,
+      "date": "16.10.2026",
+      "product": "course-php",
+      "name": "Григорий Перельман",
+      "email": "boundlessgenius@gmail.com",
+      "phone": "+79544323141",
+      "status": "complete"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
